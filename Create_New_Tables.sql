@@ -202,7 +202,7 @@ CREATE TABLE procedures
 ,STOP timestamp
 ,PATIENT varchar(100)
 ,ENCOUNTER varchar(100)
-,CODE bigint
+,CODE varchar(10)
 ,DESCRIPTION varchar(500)
 ,BASE_COST float
 --,REASONCODE varchar(30)
