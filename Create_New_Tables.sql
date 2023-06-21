@@ -1,5 +1,5 @@
 
-CREATE TABLE allergies (
+/*CREATE TABLE allergies (
  START date
 ,STOP date
 ,PATIENT varchar(1000)
@@ -27,7 +27,7 @@ CREATE TABLE careplans (
 ,DESCRIPTION varchar(1000)
 --,REASONCODE varchar(1000)
 --,REASONDESCRIPTION varchar(1000)
-);	
+);	*/
 
 
 CREATE TABLE conditions (
@@ -39,7 +39,7 @@ START DATE
 ,DESCRIPTION VARCHAR(200)
 );
 
-
+/*
 CREATE TABLE devices (
  START TIMESTAMP
 ,STOP TIMESTAMP
@@ -49,7 +49,7 @@ CREATE TABLE devices (
 ,DESCRIPTION VARCHAR(200)
 ,UDI VARCHAR(100)
 );
-
+*/
 
 CREATE TABLE encounters (
  Id VARCHAR(100)
@@ -80,6 +80,7 @@ CREATE TABLE immunizations
 --,BASE_COST float
 );
 
+/*
 CREATE TABLE medications
 (
  START timestamp
@@ -123,7 +124,7 @@ CREATE TABLE organizations
 ,PHONE varchar(100)
 ,REVENUE float
 ,UTILIZATION int
-);
+); */
 
 drop table patients
 CREATE TABLE patients
@@ -158,6 +159,7 @@ CREATE TABLE patients
 ,Mrn int
 );
 
+/*
 CREATE TABLE payer_transitions
 (
  PATIENT VARCHAR(100)
@@ -234,4 +236,4 @@ CREATE TABLE supplies
 ,QUANTITY int
 ,DESCRIPTION varchar(100) 
 ,CODE varchar(100)
-);
+); */
